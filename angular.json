@@ -27,11 +27,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/main.scss"
             ],
             "scripts": []
           },
           "configurations": {
+            "development": {
+              "aot": true,
+              "i18nFile": "src/locale/messages.sv.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "sv",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -43,20 +50,28 @@
               "outputHashing": "all",
               "sourceMap": false,
               "extractCss": true,
-              "namedChunks": false,
+              "namedChunks": true,
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true
+              "buildOptimizer": true,
+              "i18nFile": "src/locale/messages.sv.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "sv",
+              "i18nMissingTranslation": "error"
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "interview-project:build"
+            "browserTarget": "interview-project:build",
+            "proxyConfig": "proxy.conf.json"
           },
           "configurations": {
+            "development": {
+              "browserTarget": "interview-project:build:development"
+            },
             "production": {
               "browserTarget": "interview-project:build:production"
             }
@@ -76,7 +91,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.scss"
+              "src/styles/main.scss"
             ],
             "scripts": [],
             "assets": [
@@ -110,6 +125,9 @@
             "devServerTarget": "interview-project:serve"
           },
           "configurations": {
+            "development": {
+              "devServerTarget": "interview-project:build:development"
+            },
             "production": {
               "devServerTarget": "interview-project:serve:production"
             }
