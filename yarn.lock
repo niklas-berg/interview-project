@@ -451,12 +451,15 @@ amqplib@^0.5.2:
     readable-stream "1.x >=1.1.9"
     safe-buffer "^5.0.1"
 
+<<<<<<< HEAD
 angular-async-cache@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/angular-async-cache/-/angular-async-cache-2.0.1.tgz#97043652b3299204a15c18b6d0a974df615597a0"
   dependencies:
     tslib "^1.9.0"
 
+=======
+>>>>>>> bf2cea330e714da298c383922a7d310d23351b71
 ansi-html@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/ansi-html/-/ansi-html-0.0.7.tgz#813584021962a9e9e6fd039f940d12f56ca7859e"
@@ -4207,10 +4210,13 @@ next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
 
+<<<<<<< HEAD
 ngx-multi-line-ellipsis@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/ngx-multi-line-ellipsis/-/ngx-multi-line-ellipsis-1.0.4.tgz#1354237469d757d8d2e4c320d3cfd516b4b3a271"
 
+=======
+>>>>>>> bf2cea330e714da298c383922a7d310d23351b71
 no-case@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"

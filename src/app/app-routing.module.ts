@@ -6,7 +6,10 @@ const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardPageComponent },
   { path: 'project', loadChildren: './project#ProjectModule' }
+<<<<<<< HEAD
  // { path: 'project', loadChildren: './project:ProjectModule' }
+=======
+>>>>>>> bf2cea330e714da298c383922a7d310d23351b71
 ];
 
 @NgModule({
@@ -14,4 +17,7 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf2cea330e714da298c383922a7d310d23351b71

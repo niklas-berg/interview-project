@@ -16,7 +16,10 @@
 *.launch
 .settings/
 *.sublime-workspace
+<<<<<<< HEAD
 *.swp
+=======
+>>>>>>> bf2cea330e714da298c383922a7d310d23351b71
 
 # IDE - VSCode
 .vscode/*
