@@ -5,7 +5,7 @@ Vad jag gjort:
 
 TODO:
 * Nu använder jag `ngx-multi-line-ellipsis` till multiline-ellipsis. Tyvärr bryter den HTML-formatering (inget kommer gratis). Lösning, använd `-webkit-line-clamp`.
-* Cacha Observables i Service -- helst med shareReplay
+* Cacha Observables i Service -- helst med `shareReplay`
 * Fixa routes så man kan bläddra bakåt i webläsaren (se till att cachingen funkar som den ska).
 * Sökfunktion.
 
