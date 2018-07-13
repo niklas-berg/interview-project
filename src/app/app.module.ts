@@ -6,11 +6,8 @@ import { AppComponent } from './app.component';
 import { DomainModule } from './domain';
 import { DashboardPageComponent } from './pages/dashboard-page/dashboard-page.component';
 
-<<<<<<< HEAD
 import { NgxMultiLineEllipsisModule } from 'ngx-multi-line-ellipsis';
 
-=======
->>>>>>> bf2cea330e714da298c383922a7d310d23351b71
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,12 +16,9 @@ import { NgxMultiLineEllipsisModule } from 'ngx-multi-line-ellipsis';
   imports: [
     BrowserModule,
     DomainModule,
-<<<<<<< HEAD
     AppRoutingModule,
-		NgxMultiLineEllipsisModule
-=======
+		NgxMultiLineEllipsisModule,
     AppRoutingModule
->>>>>>> bf2cea330e714da298c383922a7d310d23351b71
   ],
   providers: [],
   bootstrap: [AppComponent]

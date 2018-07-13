@@ -13,8 +13,4 @@ export interface Project {
   dataUrl: string;
   dataVersion: number;
   active: boolean;
-<<<<<<< HEAD
-//	visible: boolean;
-=======
->>>>>>> bf2cea330e714da298c383922a7d310d23351b71
 }
